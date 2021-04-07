@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang=”en”>
+    <head>
+        <title>yesterday journal</title>
+    </head>
+    <link rel="icon" href="icon.png" type="image/icon type">
+    <meta charset="UTF-8">
+    <body>
+        <header>
+            <nav>
+                <a href="journal1.html">2 days ago journal</a> 
+                <a href="journal2.html">yesterday journal</a> 
+                <a href="journal3.html">today journal</a> 
+            </nav>
+            <h1>yesterday journal</h1>
+        </header>
+        <main>
+            <div>
+                <h3>Info</h3>
+                <form>
+                    <fieldset>
+                        <label>Name:</label>
+                        <input type="text" name="name"><br>
+                        <label>Date:</label>
+                        <input type="date" name="date"><br>
+                        <label>Sex:</label>
+                        <label>Male:</label><input type="radio" name="sex" value="M">
+                        <label>Female:</label><input type="radio" name="sex" value="F"><br>
+                        <label>US-citizen:</label>
+                        <input type="checkbox" name="citizen"><br>
+                        <label>Comment:</label>
+                        <textarea name="comment" rows="4" cols="50"></textarea><br>
+                        <label>Ethnicity</label>
+                        <input list="ethnicity" name="ethnicity">
+                        <datalist id="ethnicity">
+                            <option value="Asian">
+                            <option value="Hispanic">
+                            <option value="Black">
+                            <option value="White">
+                          </datalist>
+                          <br>
+                        <label>University:</label>
+                        <select name="University" id="University">
+                            <option value="UCSD">UCSD</option>
+                            <option value="UCLA">UCLA</option>
+                            <option value="UC Berkely">UC Berkely</option>
+                            <option value="UC Davis">UC Davis</option>
+                        </select>
+                    </fieldset>
+                    <button type="submit">submit</button>
+                </form>
+            </div>
+            </main>
+            <footer>
+                This is the end of the journal
+            </footer>
+    </body>
+</html>
