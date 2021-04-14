@@ -1,0 +1,1 @@
+this is the standup note template
