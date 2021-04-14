@@ -1,0 +1,36 @@
+/* this is the css file for the journal page */
+
+
+
+h2 {
+    color: 'white';
+    height: 2vh;
+    width: 100vw;
+}
+h3 {
+    color: #FAA;
+    height: 30px;
+}
+
+span {
+    font-size: 1em;
+}
+
+header {
+    background-color: purple;
+    margin: auto;
+}
+
+a{
+    color:white;
+    width: 20 vw;
+    height: 1cm;
+    margin: 5mm 3mm 5mm 3mm;
+}
+
+#nav_1 {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
