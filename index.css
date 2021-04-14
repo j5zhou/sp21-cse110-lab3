@@ -1,11 +1,20 @@
 /* this is the css file for the journal page */
 
-
+.title{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
 
 h2 {
     color: 'white';
     height: 2vh;
+    max-height: 50px;
     width: 100vw;
+    max-width: 1000px;
+    min-width:500px;
 }
 h3 {
     color: #FAA;
@@ -14,6 +23,10 @@ h3 {
 
 span {
     font-size: 1em;
+    margin: 2mm 2mm 2mm 2mm;
+    display: inline-block;
+    position: relative;
+    min-width:40px;
 }
 
 header {
@@ -26,11 +39,61 @@ a{
     width: 20 vw;
     height: 1cm;
     margin: 5mm 3mm 5mm 3mm;
-}
-
-#nav_1 {
+    padding: 5px 5px 5px 5px;
+    border-style: dotted;
+    border-color: aliceblue;
+    border-width:1px;
+    border-radius: 5px;
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 15px;
+    position: static;
+}
+
+a:hover{
+    color:red
+}
+
+
+button:active{
+    background-color:burlywood;
+}
+
+#nav_1 {
+    margin: 0mm 0mm 0mm 0mm;
+    text-align: center;
+}
+
+
+p {
+    color:black;
+    text-decoration: brown;
+    text-align: left;
+}
+
+.block{
+    display:block;
+    width:100px;
+    height:40px;
+}
+
+.flexContainer{
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-template-rows: 100px 100px;
+    column-gap: 30px;
+    row-gap: 10px;
+}
+
+.gridItem {
+    min-width: 300px;
 }
